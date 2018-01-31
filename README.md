@@ -23,7 +23,7 @@
 
 #### 重点说明一下最后一个文件 *cityName_transfer_cityID.py*
 
-由于源数据文件*meizu_country.json* 和 *meizu_city.json* 中的数据格式是*{"cityID": 101010100, "cityName": 北京 }* 这样的形式，Python中进行URL拼接时不能直接得到城市代码。
+由于源数据文件*meizu_country.json* 和 *meizu_city.json* 中的数据格式是*{"cityID": 101010100, "cityName": 北京 }*这样的形式，Python中进行URL拼接时不能直接得到城市代码。
 
 ##### 采取的方法是：
 
@@ -35,7 +35,7 @@
 
 ##### 编码问题
 
-上述方案有一个问题，就是通过*json*解析之后，中文在dict的存储变成了形如`\u8302\u6e2f`的形式，这种编码格式称为***<font color=red>usc2</font>***
+上述方案有一个问题，就是通过*json*解析之后，中文在dict的存储变成了形如`\u8302\u6e2f`的形式，这种编码格式称为**<font color=red>usc2</font>**
 
 > \u5317\u4EAC
 >
@@ -45,8 +45,8 @@
 
 有两种转换方式
 
-- 将dict中的所有cityName转换为中文
-- 将输入的中文转换为如上***usc2***的编码格式
+- 将*dict*中的所有*cityName*转换为中文
+- 将输入的中文转换为如上*usc2*的编码格式
 
 通过比较两种转换方式，第一种的转换更为繁琐，而且工作量更大，仅仅对输入进行转换再进行匹配的方案更好一些。
 
