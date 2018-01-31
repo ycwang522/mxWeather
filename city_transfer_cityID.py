@@ -41,6 +41,7 @@ def cityname_transfer_cityid(cityname):
     :param cityname:
     :return cityID
     """
+    # 将输入进行编码格式转换——>usc2
     cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
     try:
        result_city_id = cityName_cityID[cityNameUnicode]
