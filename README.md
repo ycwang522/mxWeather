@@ -10,6 +10,8 @@
 >
 > http://aider.meizu.com/app/weather/listWeather?cityIds=101010100 
 
+</br>
+
 ## 文件说明
 
 
@@ -20,6 +22,8 @@
 - *cityName_cityId.json*  由{城市名称：城市ID}构成的一个字典，从*meizu_city.json* 和 *meizu_country.json*中提取
 - *cityName_transfer_cityID.py*  该文件对两个*json*数据文件进行整合。输入城市名称，返回对应城市的数字代码。
 
+
+</br>
 
 #### 重点说明一下最后一个文件 *cityName_transfer_cityID.py*
 
@@ -59,8 +63,6 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 
 ## 运行界面
 
-![运行界面](http://imglf3.nosdn.127.net/img/ZG9uT3VOcDRVemdobW1VTmpNaXpDU3Y4TW9ncDhrQUZGRXBlZXFPclV5UXdxSGxVaXhlaTZ3PT0.bmp?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
-
 输入城市名称(enter 'q' to exit):北京
 
 | 日期                 | 天气     | 温度               |
@@ -73,7 +75,7 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 | 日期: 2018-02-05 星期一 | 天气: 晴  | 温度: -9 ℃ ~ 2 ℃   |
 | 日期: 2018-01-30 星期二 | 天气: 晴  | 温度: -7 ℃ ~ 5 ℃   |
 
-
+![运行界面](http://imglf3.nosdn.127.net/img/ZG9uT3VOcDRVemdobW1VTmpNaXpDU3Y4TW9ncDhrQUZGRXBlZXFPclV5UXdxSGxVaXhlaTZ3PT0.bmp?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 
 ## Done
