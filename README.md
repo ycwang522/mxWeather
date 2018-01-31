@@ -37,7 +37,7 @@
 
 上述方案有一个问题，就是通过*json*解析之后，中文在dict的存储变成了形如`\u8302\u6e2f`的形式，这种编码格式称为 *<u>usc2</u>*
 
-> \u5317\u4EAC
+> *\u5317\u4EAC*
 >
 > 对应“北京”
 
@@ -59,3 +59,4 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 
 ## Done
 
+Thanks：https://github.com/jokermonn/-Api
