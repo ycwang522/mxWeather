@@ -28,9 +28,14 @@ cities_json = json.loads(content)
 print "查询城市:", cities_json["value"][0]["city"]
 
 weathers = cities_json['value'][0]['weathers']
+print "日期\t\t\t\t\t", "天气\t\t", "温度\t\t"
 for index in weathers:
     # print '_'*56
-    print "|日期:", index['date'], index['week'] + '|',
+    print index['date'], index['week'] + '\t',
+    print index['weather'] + '\t\t',
+    print index['temp_night_c'], "℃ ~", index['temp_day_c'], "℃"
+    """
+    print "|日期:", index['date'], index['week'] + '|\t',
     print "|天气:", index['weather'] + '\t|',
     print "|温度:", index['temp_night_c'], "℃ ~", index['temp_day_c'], "℃|"
-
+    """
