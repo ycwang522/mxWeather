@@ -23,19 +23,19 @@
 
 #### 重点说明一下最后一个文件 *cityName_transfer_cityID.py*
 
-由于源数据文件*meizu_country.json* 和 *meizu_city.json* 中的数据格式是*{"cityID": 101010100, "cityName": 北京 }*这样的形式，Python中进行URL拼接时不能直接得到城市代码。
+由于源数据文件*meizu_country.json* 和 *meizu_city.json* 中的数据格式是{"cityID": 101010100, "cityName": 北京 }这样的形式，Python中进行URL拼接时不能直接得到城市代码。
 
 ##### 采取的方法是：
 
 新建一个*dict*，遍历两个数据文件并将*cityName*和*cityID*按照如下的格式存储：
 
-> dict[cityName] = cityID
+> *dict[cityName] = cityID*
 
 这样就可以通过访问字典来返回城市代码了。
 
 ##### 编码问题
 
-上述方案有一个问题，就是通过*json*解析之后，中文在dict的存储变成了形如`\u8302\u6e2f`的形式，这种编码格式称为**<font color=red>usc2</font>**
+上述方案有一个问题，就是通过*json*解析之后，中文在dict的存储变成了形如`\u8302\u6e2f`的形式，这种编码格式称为 *<u>usc2</u>*
 
 > \u5317\u4EAC
 >
