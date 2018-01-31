@@ -59,7 +59,7 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 
 ## 运行界面
 
-![运行界面](https://i.loli.net/2018/01/31/5a7169c253a29.bmp)
+![运行界面](http://imglf3.nosdn.127.net/img/ZG9uT3VOcDRVemdobW1VTmpNaXpDU3Y4TW9ncDhrQUZGRXBlZXFPclV5UXdxSGxVaXhlaTZ3PT0.bmp?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 输入城市名称(enter 'q' to exit):北京
 
