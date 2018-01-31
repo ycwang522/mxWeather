@@ -61,6 +61,8 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 # 將輸入按照'utf-8'解碼再重新編碼為'raw_Unicode_escape'格式
 ```
 
+</br>
+
 ## 运行界面
 
 输入城市名称(enter 'q' to exit):北京
@@ -74,6 +76,8 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 | 日期: 2018-02-04 星期日 | 天气: 晴  | 温度: -8 ℃ ~ 1 ℃   |
 | 日期: 2018-02-05 星期一 | 天气: 晴  | 温度: -9 ℃ ~ 2 ℃   |
 | 日期: 2018-01-30 星期二 | 天气: 晴  | 温度: -7 ℃ ~ 5 ℃   |
+
+</br>
 
 ![运行界面](http://imglf3.nosdn.127.net/img/ZG9uT3VOcDRVemdobW1VTmpNaXpDU3Y4TW9ncDhrQUZGRXBlZXFPclV5UXdxSGxVaXhlaTZ3PT0.bmp?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
