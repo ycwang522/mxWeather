@@ -59,7 +59,7 @@ cityNameUnicode = cityname.decode('utf-8').encode('raw_unicode_escape')
 
 ## 运行界面
 
-![](C:\Users\lenovo\Desktop\weather.bmp)
+![运行界面](https://i.loli.net/2018/01/31/5a7169c253a29.bmp)
 
 输入城市名称(enter 'q' to exit):北京
 
